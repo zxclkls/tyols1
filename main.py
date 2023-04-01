@@ -5,3 +5,12 @@ class Person:
   neme = 'nikita'
 
 
+me = Person()
+
+print(me.age)
+print(me.height)
+print(me.isMale)
+print(me.neme)
+
+friend = Person()
+friend.neme = "Volody"
